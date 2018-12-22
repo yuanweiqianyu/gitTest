@@ -39,7 +39,20 @@ git练习文件
      （6）git mv [file] [folder]                     把文件引动至某个文件夹下
                  [file] [newFileName]               给文件重命名
 
+     3、分支管理
+        创建
+      （1）git branch                                查看当前分支
+      （2）git branch [name]                         创建本地分支（从当前分支）
 
+        切换(切换分支之前，先提交当前分支修改代码)
+      （3）git checkout [name]                       切换到指定分支
+       (4) git checkout -b [name]                    创建并切换到这个分支（相当于 （2）（3）的合并操作）
+
+        删除（不能再当前分支删除当前分支）
+      （5）git branch -d [name]                      删除指定分支
+
+        合并分支
+sss
 
 
 
