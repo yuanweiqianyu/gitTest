@@ -49,7 +49,8 @@ git练习文件
        (4) git checkout -b [name]                    创建并切换到这个分支（相当于 （2）（3）的合并操作）
 
         删除（不能再当前分支删除当前分支）
-      （5）git branch -d [name]                      删除指定分支
+      （5）git branch -d [name]                      删除指定分支（本地）
+           git push --delete origin [name]          删除指定的远程分支
 
         合并分支
         git merge [branchName]                       （branchName）被合并的分支名称
