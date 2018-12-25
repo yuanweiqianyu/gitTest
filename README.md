@@ -55,8 +55,6 @@ git练习文件
         合并分支
         git merge [branchName]                       （branchName）被合并的分支名称
 
-        dev 的修改2222
-
 
      4、查看提交历史
        git log                                 (当前分支)提交历史
