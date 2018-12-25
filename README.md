@@ -57,15 +57,22 @@ git练习文件
 
 
      4、查看提交历史
-       git log                                 (当前分支)提交历史
-                 --oneline                     简洁版的
-                 --graph                       更清楚的看到分叉和归并
-                 --reverse                     逆向排序
+       git log                                      (当前分支)提交历史
+                 --oneline                          简洁版的
+                 --graph                            更清楚的看到分叉和归并
+                 --reverse                          逆向排序
 
      5、标签
-        git tag -a v1.0.0                      打标签
-        git tag                                查看历史标签
-        git log --decorate                     查看提交的历史（能看到标签的）
+        git tag -a v1.0.0                           打标签
+        git tag                                     查看历史标签
+        git log --decorate                          查看提交的历史（能看到标签的）
+
+     4、远程分支
+     （1）将本地分支和远程分支进行关联（没有此远程分支，就创建远程分支）
+        git push -u origin [name]
+
+     （2）
+            test
 
 
 
