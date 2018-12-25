@@ -55,6 +55,7 @@ git练习文件
         合并分支
         git merge [branchName]                       （branchName）被合并的分支名称
 
+        dev 的修改
 
 
 
