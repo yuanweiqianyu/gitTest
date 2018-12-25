@@ -61,7 +61,11 @@ git练习文件
                  --oneline                     简洁版的
                  --graph                       更清楚的看到分叉和归并
                  --reverse                     逆向排序
-                 
+
+     5、标签
+        git tag -a v1.0.0                      打标签
+        git tag                                查看历史标签
+        git log --decorate                     查看提交的历史（能看到标签的）
 
 
 
