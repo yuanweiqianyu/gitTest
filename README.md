@@ -58,6 +58,12 @@ git练习文件
         dev 的修改
 
 
+     4、查看提交历史
+       git log                                 (当前分支)提交历史
+                 --oneline                     简洁版的
+                 --graph                       更清楚的看到分叉和归并
+                 --reverse                     逆向排序
+                 
 
 
 
